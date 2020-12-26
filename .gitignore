@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#ignore .DS_Store
+.DS_Store
+
+#ignore image files and html files
+.jpeg
+.jpg
+.png
+.html
+
+#ignore pycache
+__pycache__/*.pyc
+**/*.pyc
