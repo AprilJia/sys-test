@@ -4,14 +4,14 @@ from pathlib import Path
 import src.config as cf
 from src.aws_locators import Locators
 
-data_dir = "/Users/yjia/testData/test_data_apricot_cntest/"
+data_dir = "/Users/yjia/testData/Jackfruit/"
 invalid_data =["SPAINT0001_1", "SPAINT0001_2", "SPAINT0001_3",
           "SPAINT0001_4", "SPAINT0002_1", "SPAINT0002_2",
           "SPAINT0003_1", "SPAINT0003_2"]
 valid_data = ["SPAINT0004_1","SPAINT0004_2", "SPAINT0006_1"]
 
 awsui = FruitUI()
-spa = Fruit(cf.profile_name,data_dir)
+spa = Fruit(cf.profile_name)
 
 
 def tc_upload():
@@ -81,6 +81,7 @@ def tc_view_result():
         awsui.take_screenshot(i.split("/")[-1]+".png")
 
 
+
 #verify properties - versioning
 def tc_versioning(bucket):
     awsui.to_s3_property_tab(bucket)
@@ -97,25 +98,33 @@ def tc_no_overwritten(bucket,dn=None):
 
 
 def tc_download_output():
-    objs = spa.get_s3obj("compote-bldr-prod-seq-output-s3","190910_M70566_0043_000000000-CDCTC")
+    objs = spa.get_s3obj("compote-bldr-staging-v2-seq-output-s3","200408_M00000_0001_000000000-DZxMV")
     # return objs
-    spa.download_s3obj(objs,"compote-bldr-prod-seq-output-s3")
+    print(objs)
+    spa.download_s3obj(objs,"compote-bldr-staging-v2-seq-output-s3")
 
 
 
 # for i in range(len(invalid_data)):
-for i in range(1):
-    test_dir = f'{data_dir}{invalid_data[i]}'
-    setattr(spa,"dir",test_dir)
-    tc_upload()
-    tc_login()
-    tc3(cf.s3_output)
-    tc4_logs_b(cf.info_log)
+# for i in range(1):
+#     test_dir = f'{data_dir}{invalid_data[i]}'
+#     setattr(spa,"dir",test_dir)
+#     tc_upload()
+#     tc_login()
+#     tc3(cf.s3_output)
+#     tc4_logs_b(cf.info_log)
     # tc4_logs_b(cf.success_log)
     # tc_download_result()
     # tc_versioning(cf.s3_output)
     # tc_versioning(cf.s3_result)
     # tc_view_result()
 
+
+tc_upload()
+# tc_login()
+# tc3(cf.s3_output)
+# tc4_logs_b(cf.info_log)
+
+# tc_download_output()
 
 

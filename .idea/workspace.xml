@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="73650bd9-efcc-449c-8dce-0944ce685345" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sys_test" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.37651005">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/aws_locators.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1200">
+                  <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/fruit.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="277">
+                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                  <folding>
+                    <element signature="e#0#24#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test_case/tc_user_access.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="504">
+                  <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#0#32#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/temp.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+                  <folding>
+                    <element signature="e#0#37#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/fruit_ui.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2359">
+                  <caret line="232" lean-forward="true" selection-start-line="232" selection-end-line="232" />
+                  <folding>
+                    <element signature="e#0#34#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/config.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/setup/apricot_cn.ini">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="367">
+                  <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/setup/compote_staging_v.ini">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test_case/tc_s3_logs.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="398">
+                  <caret line="113" column="27" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get_s3_client</find>
+      <find>version</find>
+      <find>delete_file</find>
+      <find>upload_file_to</find>
+      <find>page</find>
+      <find>take_screenshot</find>
+      <find>access</find>
+      <find>self.</find>
+      <find>find_</find>
+      <find>to_log_page</find>
+      <find>upload_file</find>
+      <find>to_s3_page</find>
+      <find>download</find>
+      <find>OK</find>
+      <find>resource</find>
+      <find>get_resource</find>
+      <find>get_dir_obj</find>
+      <find>to_s3</find>
+      <find>loc.s3_url</find>
+      <find>loc.cw_url</find>
+      <find>back</find>
+      <find>Timeout</find>
+      <find>flowcell</find>
+      <find>to_s</find>
+      <find>click_obj</find>
+      <find>rename</find>
+      <find>find</find>
+      <find>select</find>
+      <find>find_s</find>
+      <find>check</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>self.dir</replace>
+      <replace>(self,</replace>
+      <replace>Path(self.dir)</replace>
+      <replace>ap.</replace>
+      <replace>awsui</replace>
+      <replace>awsui.</replace>
+      <replace>awsA.</replace>
+      <replace>apricot</replace>
+      <replace>log_stream</replace>
+      <replace>info_log</replace>
+      <replace>log_group</replace>
+      <replace>self.</replace>
+      <replace>fr.</replace>
+      <replace>slef</replace>
+      <replace>self</replace>
+      <replace>loc</replace>
+      <replace>loc.</replace>
+      <replace>self.loc.</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test_play.py" />
+        <option value="$PROJECT_DIR$/test_case/tc_seq_output_s3.py" />
+        <option value="$PROJECT_DIR$/src/config_data.py" />
+        <option value="$PROJECT_DIR$/test_case/tc_upload_seq_output_to_s3.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/setup.txt" />
+        <option value="$PROJECT_DIR$/test_case/user_access.py" />
+        <option value="$PROJECT_DIR$/src/tc_user_access.py" />
+        <option value="$PROJECT_DIR$/sys_step1.py" />
+        <option value="$PROJECT_DIR$/play1.py" />
+        <option value="$PROJECT_DIR$/setup.json" />
+        <option value="$PROJECT_DIR$/setup/compote_staging_v" />
+        <option value="$PROJECT_DIR$/exa.py" />
+        <option value="$PROJECT_DIR$/setup/tc.ini" />
+        <option value="$PROJECT_DIR$/test_case/SPAINT0004.py" />
+        <option value="$PROJECT_DIR$/setup/apricot_cn" />
+        <option value="$PROJECT_DIR$/setup/sandbox.ini" />
+        <option value="$PROJECT_DIR$/setup/compote_staging_v2.ini" />
+        <option value="$PROJECT_DIR$/setup/compote_staging_v.ini" />
+        <option value="$PROJECT_DIR$/setup/apricot_cn.ini" />
+        <option value="$PROJECT_DIR$/temp.py" />
+        <option value="$PROJECT_DIR$/src/config.py" />
+        <option value="$PROJECT_DIR$/test_case/tc_s3_logs.py" />
+        <option value="$PROJECT_DIR$/test_case/tc_user_access.py" />
+        <option value="$PROJECT_DIR$/src/fruit.py" />
+        <option value="$PROJECT_DIR$/src/aws_locators.py" />
+        <option value="$PROJECT_DIR$/src/fruit_ui.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="80" />
+    <option name="y" value="23" />
+    <option name="width" value="1655" />
+    <option name="height" value="973" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sys_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sys_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sys_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sys_test" type="462c0819:PsiDirectoryNode" />
+              <item name="setup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sys_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sys_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sys_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sys_test" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sys_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sys_test" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+              <item name="OE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sys_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sys_test" type="462c0819:PsiDirectoryNode" />
+              <item name="test_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sys_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sys_test" type="462c0819:PsiDirectoryNode" />
+              <item name="test_data" type="462c0819:PsiDirectoryNode" />
+              <item name="user_access_test_file" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings custom-start-script="" sdk-home="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python">
+        <option name="myCustomStartScript" value="" />
+        <option name="mySdkHome" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_case" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.tc_user_access">
+    <configuration name="aws_locators" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sys_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/aws_locators.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fruit_ui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sys_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/fruit_ui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tc_s3_logs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sys_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/tc_s3_logs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tc_user_access" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sys_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/tc_user_access.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sys_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.fruit_ui" />
+      <item itemvalue="Python.temp" />
+      <item itemvalue="Python.tc_s3_logs" />
+      <item itemvalue="Python.tc_user_access" />
+      <item itemvalue="Python.aws_locators" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tc_user_access" />
+        <item itemvalue="Python.tc_s3_logs" />
+        <item itemvalue="Python.temp" />
+        <item itemvalue="Python.aws_locators" />
+        <item itemvalue="Python.fruit_ui" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73650bd9-efcc-449c-8dce-0944ce685345" name="Default Changelist" comment="" />
+      <created>1579363996599</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579363996599</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_test_play_py - 2020.01.18 at 09h 34m 11s.xml">
+      <configuration name="pytest in test_play.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="80" y="23" width="1655" height="973" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.321489" visible="true" weight="0.08812729" />
+      <window_info id="Structure" order="1" sideWeight="0.678511" side_tool="true" weight="0.20012055" />
+      <window_info id="Favorites" order="2" sideWeight="0.67763907" side_tool="true" weight="0.20012055" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.14698794" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1123723" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1906924" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291714" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291714" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3291714" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22140221" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.14742589" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26504943" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1906924" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test_case/OE/compote-bldr-staging-v2-seq-output-s3200125_M70753_0018_000000000-CDCVB.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/yjia@archerdx.com.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/compote-bldr-staging-admin1-compote-bldr-staging-result-s3-replica.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/compote-bldr-staging-admin1-compote-bldr-staging-seq-output-s3-replica.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/yjia@archerdx.com-compote-bldr-staging-v2-result-s3.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/yjia@archerdx.com-compote-bldr-staging-v2-seq-output-s3.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/compote-bldr-staging-admin1_compote-bldr-staging-info-log-group.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/compote-bldr-staging-admin1_ec2.png" />
+    <entry file="file://$PROJECT_DIR$/setup/apricot_cn" />
+    <entry file="file://$PROJECT_DIR$/setup/sandbox.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/OE/000000000-CHKNN_s15-1_results.zip.checksum.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/000000000-CHKNN_s15-1_intermediate.zip.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/000000000-CHKNN_s15-1_intermediate.zip.checksum.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/000000000-CDCTCseq_output.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/000000000-CHKNNseq_output.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/compote-cn-01-staging-info-log-group.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/compote-cn-01-staging-result-s3version_enabled.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/compote-cn-01-staging-seq-output-s3version_enabled.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/compote-cn-01-staging-success-log-group.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/000000000-CHKNN_s16-1.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/000000000-CHKNN_s15-2.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/000000000-CDCTC_LIB-477.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/cn-staging-admin_ec2.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/cn-staging-admin_compote-cn-01-staging-success-log-group.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/cn-staging-admin_compote-cn-01-staging-error-log-group.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/cn-staging-admin-compote-cn-01-staging-seq-output-s3-replica.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/cn-staging-adminupload.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/cn-staging-admin_compote-cn-01-staging-info-log-group.png" />
+    <entry file="file://$PROJECT_DIR$/apricot_user.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/cn-staging-operator_log.png" />
+    <entry file="file://$PROJECT_DIR$/test_case/OE/cn-staging-operator_log_access_denied.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/OE/delete.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup/compote_staging_v2.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/OE/rename1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/OE/rename2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/OE/cn-staging-operator-compote-cn-01-staging-result-s3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/OE/cn-staging-qa-compote-cn-01-staging-result-s3-replica.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/OE/cn-staging-qa-compote-cn-01-staging-seq-output-s3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/OE/cn-staging-qa_upload.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup/tc.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup/setup.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/tc_user_access.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aws_locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/myGit/coding_practise/file_operation/table_convertor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/tc_s3_logs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="113" column="27" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fruit_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2359">
+          <caret line="232" lean-forward="true" selection-start-line="232" selection-end-line="232" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup/apricot_cn.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup/compote_staging_v.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fruit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

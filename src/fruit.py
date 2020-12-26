@@ -12,7 +12,11 @@ class Fruit():
 
     def __init__(self,profile):
         # self.dir = PKG_ROOT / "test_data"
-        self.dir="/Users/yjia/testData/test_data_apricot_cntest/SPAINT0004_1"
+        # self.dir="/Users/yjia/testData/jackfruit/"
+        # self.dir = "/Users/yjia/testData/informal/ctdna_td1/"
+        # self.dir = "/Users/yjia/testData/Jackfruit/MiSeqDx_4/"
+        self.dir = "/Users/yjia/testData/demux/"
+        # self.dir = "/Users/yjia/testData/jackfruit/corrupted_data"
         self.profile_name = profile
         # self.dir = data_dir
 
@@ -42,11 +46,9 @@ class Fruit():
     @property
     def get_seq_output_dir_name(self):
         seq_output_dir_name = []
-        for dir in self.get_dir_obj("000000000-"):
+        for dir in self.get_dir_obj("_000"):
             seq_output_dir_name.append(str(dir.name))
         return seq_output_dir_name
-
-
 
     @property
     def get_flowcell(self):
@@ -149,10 +151,9 @@ class Fruit():
 
     def download_s3obj(self,objs,bucket):
         s3 = self.get_resource("s3")
-        seq_result_s3 = s3.Bucket(bucket)
         for obj in objs:
-            result_file = Path('results').joinpath(Path(obj.key).name)
-            seq_result_s3.download_file(obj.key, str(result_file))
+            file_to_be_download = Path('results').joinpath(Path(obj.key).name)
+            s3.Bucket(bucket).download_file(obj.key, str(file_to_be_download))
 
     def get_log_events(self,log_group, log_stream):
         """Generate all the log events from a CloudWatch group.
@@ -183,7 +184,7 @@ class Fruit():
         return data
 
     def upload_to_seq_output_s3(self, bucket_name):
-        for dir in self.get_dir_obj("000000000"):
+        for dir in self.get_dir_obj("000"):
             self.upload_dir_to_s3(bucket_name, "CompletedJobInfo.xml")
             f_in = self.get_absolute_path(dir, "CompletedJobInfo.xml")
             f_out = f_in.relative_to(dir.parent)

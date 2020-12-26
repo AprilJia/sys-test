@@ -17,10 +17,11 @@ class User:
     log_group = [cf.info_log, cf.error_log, cf.success_log]
     s3_url_prefix = cf.s3_url_prefix
 
-    def __init__(self,user):
-        self.username = user[0]
-        self.password = user[1]
-        self.account = user[2]
+    def __init__(self,user=None):
+        if user is None:
+            self.username = user[0]
+            self.password = user[1]
+            self.account = user[2]
 
     @property
     def login(self):
@@ -87,8 +88,8 @@ root = [cf.root_username, cf.root_password, cf.account]
 users=[operator,qa,admin,root]
 
 user=User(users[1])
-user.login
-user.upload_file()
+# user.login
+# user.upload_file()
 
 # for i in range(len(users)):
 #     user = User(users[i])
@@ -109,15 +110,15 @@ user.upload_file()
 
 # if __name__=='__Main__':
 #
-# ad=User(admin)
+# ad=User()
 # ad.login
-# # ad.s3_upload_test_file(cf.s3_output)
-#
-# # ad.s3_modify_access()
+# ad.s3_upload_test_file(cf.s3_output)
+
+# ad.s3_modify_access()
 # ad.s3_view_access
 # ad.ec2_access
 # ad.log_access
-
+print(user.username)
 
 
 

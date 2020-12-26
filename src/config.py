@@ -2,7 +2,8 @@ import configparser
 
 
 config=configparser.ConfigParser()
-config.read("/Users/yjia/myCode/sys_test/setup/apricot_cn.ini")
+config.read("/Users/yjia/myCode/sys_test/setup/compote_staging_v2.ini")
+# config.read("/Users/yjia/myCode/sys_test/setup/compote_staging_v2.ini")
 
 url = config["url"]["login_url"]
 s3_url = config["url"]["s3_url"]
