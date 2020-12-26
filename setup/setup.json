@@ -1,0 +1,94 @@
+{
+  "account": {
+    "sandbox": "075874963318",
+    "compote": "859070845359"
+  },
+  "user": {
+    "admin": {
+      "username": "compote-bldr-staging-admin1",
+      "password": "COMPOTE@dmin1"
+    },
+    "qa": {
+      "username": "compote-bldr-staging-qa1",
+      "password": "COMPOTEq@1"
+    },
+    "operator": {
+      "username": "compote-bldr-staging-operator1",
+      "password": "COMPOTEoper@tor1"
+    }
+  },
+  "test_user": {
+    "admin": {
+      "username": "yjia@archerdx.com",
+      "password": "P@ss1234"
+    },
+    "qa": {
+      "username": "",
+      "password": ""
+    },
+    "operator": {
+      "username": "",
+      "password": ""
+    }
+  },
+  "sandbox_user": {
+      "admin": {
+        "username": "yjia",
+        "password": "P@ss1234"
+      },
+      "qa": {
+        "username": "",
+        "password": ""
+      },
+      "operator": {
+        "username": "",
+        "password": ""
+      }
+  },
+  "s3": {
+    "compote": {
+      "output": {
+        "v": ["compote-bldr-staging-seq-output-s3",
+        "compote-bldr-staging-seq-output-s3-replica"
+        ],
+        "v2": [
+        "compote-bldr-staging-v2-seq-output-s3",
+        "compote-bldr-staging-v2-seq-output-s3-replica"
+        ]
+      },
+      "result": {
+        "v": [
+          "compote-bldr-staging-result-s3",
+          "compote-bldr-staging-result-s3-replica"
+        ],
+        "v2": [
+          "compote-bldr-staging-v2-result-s3",
+          "compote-bldr-staging-v2-result-s3-replica"
+        ]
+      }
+    },
+    "sandbox": {
+      "output": "",
+      "result": ""
+    }
+  },
+  "log_group": {
+    "compote": {
+      "v": {
+        "info": "compote-bldr-staging-info-log-group",
+        "error": "compote-bldr-staging-error-log-group",
+        "success": "compote-bldr-staging-success-log-group"
+      },
+      "v2": {
+        "info": "compote-bldr-staging-v2-info-log-group",
+        "error": "compote-bldr-staging-v2-error-log-group",
+        "success": "compote-bldr-staging-v2-success-log-group"
+      }
+    },
+    "sandbox": {
+      "info": "",
+      "error": "",
+      "success": ""
+    }
+  }
+}

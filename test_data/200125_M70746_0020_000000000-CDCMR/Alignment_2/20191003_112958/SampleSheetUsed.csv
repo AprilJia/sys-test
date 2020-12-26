@@ -1,0 +1,18 @@
+[Header]
+Local Run Manager Analysis Id,37038
+Date,10/3/2019
+Experiment Name,SEQL_23
+Workflow,GenerateFASTQ
+Description,Auto generated sample sheet.  Used by workflow module to kick off Isis analysis
+Chemistry,Amplicon
+
+[Reads]
+151
+151
+
+[Settings]
+[Data]
+Sample_ID,index,I7_Index_ID,index2,I5_Index_ID,Description,SampleProject
+LIB-170,TAAGGCGA,P7_1,GGTATGCAAT,0-i5-3,ivd-reveal-rna_METex14,
+LIB-140,CGTACTAG,P7_2,TCACGTCACA,28-i5-P,ivd-reveal-rna_METex14,PID-rna-02
+LIB-144,TAGGCATG,P7_6,ATGTAGCTGA,26-i5-P,ivd-reveal-rna_METex14,PID-rna-01
