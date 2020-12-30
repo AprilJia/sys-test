@@ -1,5 +1,4 @@
 import re
-import xlwt
 from xlwt import Workbook
 import linecache
 
