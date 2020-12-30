@@ -1,6 +1,23 @@
 import re
 from xlwt import Workbook
 import linecache
+import docx2txt
+
+
+class PrepDocs:
+
+    def __init__(self,src,tgt,mode):
+        self.src=src
+        self.tgt=tgt
+        self.mode=mode
+
+    def word2txt(self):
+        wf = docx2txt.process(self.src)
+        with open(self.tgt, "w") as fout:
+            print(wf, file=fout)
+
+
+
 
 class Requirements:
 
@@ -17,6 +34,7 @@ class Requirements:
     def __init__(self,file,prefix):
         self.file=file
         self.prefix=prefix
+
 
     #return file content without blank line
     def file_content(self):
@@ -79,7 +97,7 @@ class Requirements:
         return reqs
 
 
-    def write_csv(self,reqs):
+    def write_xlsx(self,reqs):
         wb=Workbook()
         sheet1=wb.add_sheet('Requirements')
         sheet1.write(0,0,'Req #')
@@ -90,13 +108,16 @@ class Requirements:
         wb.save('Reqs.xls')
 
 def main():
-
-    req_inst=Requirements("sad.txt","SADREQ")
+    origin = "srs.docx"
+    txtfile = "Reqs.txt"
+    predoc=PrepDocs(origin,txtfile,"word")
+    predoc.word2txt()
+    req_inst=Requirements(txtfile,"SYSREQ")
     req_ids=list(req_inst.req_ids.keys())
     req_line_index=list(req_inst.req_ids.values())
     req_full=req_inst.req_full(req_line_index)
     reqs=req_inst.req_split(req_ids,req_full)
-    req_inst.write_csv(reqs)
+    req_inst.write_xlsx(reqs)
 
 
 
