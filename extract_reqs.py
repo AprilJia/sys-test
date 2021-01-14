@@ -35,7 +35,6 @@ class PrepDocs:
             pdf=pdftotext.PDF(pdfin)
             for p in range(len(pdf)):
                 txt=txt+pdf[p]
-        print(self.prep_txt(txt))
         return self.prep_txt(txt)
 
 
@@ -132,11 +131,11 @@ class Requirements:
         wb.save('Reqs.xls')
 
 def main():
-    origin = "sad.pdf"
+    origin = "SRS.pdf"
     txtfile = "Reqs.txt"
     predoc=PrepDocs(origin,txtfile)
     predoc.write_file
-    req_inst=Requirements(txtfile,"SADREQ")
+    req_inst=Requirements(txtfile,"AMVTSRS")
     req_num=list(req_inst.req_ids.keys())
     req_line_index=list(req_inst.req_ids.values())
     req_full=req_inst.req_full(req_line_index)
