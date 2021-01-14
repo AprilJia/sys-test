@@ -1,0 +1,71 @@
+{
+   "jackfruit":{
+      "account":"075874963318",
+      "prefix":"jackfruit",
+      "region": "us-west-2",
+      "group":[
+         "technician",
+         "supervisor",
+         "admin",
+         "auditor"
+      ],
+      "role":[],
+      "service":[
+         "S3",
+         "CloudWatch Logs",
+         "Identity"
+      ]
+   },
+   "cherry":{
+      "account":"859070845359",
+      "prefix":"compote-bldr-staging-v2",
+      "region": "us-west-2",
+      "group":[
+         "operator",
+         "qa",
+         "admin"
+      ],
+      "role":[],
+      "service":[
+         "S3",
+         "CloudWatch Logs"
+      ]
+   },
+   "elderberry": {
+      "account": "075874963318",
+      "prefix": "elderberry-bldr-sandbox01",
+      "region": "us-west-2",
+      "group": [
+         "operator",
+         "qa",
+         "admin"
+      ],
+      "role": [],
+      "service": [
+         "S3",
+         "CloudWatch Logs"
+      ]
+   },
+   "S3":[
+      "GetObject",
+      "PutObject",
+      "DeleteObject"
+   ],
+   "CloudWatch Logs":[
+      "GetLogEvents",
+      "PutLogEvents",
+      "DeleteLogStream",
+      "DeleteLogGroup"
+   ],
+   "Identity":[
+      "CreateGroup",
+      "DeleteGroup",
+      "UpdateGroup",
+      "CreateUser",
+      "DeleteUser",
+      "ChangePassword",
+      "UpdateUser",
+      "RemoveUserFromGroup",
+      "AddUserToGroup"
+   ]
+}
