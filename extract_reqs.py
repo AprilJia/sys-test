@@ -153,8 +153,8 @@ class Requirements:
 
 def main():
 
-    docs = {"sad.pdf":"STTSAD",
-            "srs.pdf":"STTSRS"}
+    docs = {"srs.pdf":"STTSRS",
+            "sad.pdf":"STTSAD"}
 
     wb = xlwt.Workbook()
     sheet1 = wb.add_sheet("REQs")
