@@ -4,6 +4,9 @@ import linecache
 import docx2txt
 import pdftotext
 from pathlib import Path
+import xlrd
+from xlutils.copy import copy
+
 
 class PrepDocs:
 
@@ -23,6 +26,7 @@ class PrepDocs:
             tout=re.sub(s,"", tout) #remove header and footer
         tout=re.sub(r'^$\n', '', tout, flags=re.MULTILINE) #remove empty line
         tout=re.sub("\s{50}"," ",tout)
+        tout=re.sub(r'Document Number','',tout)
         return tout
 
     def word2txt(self):
@@ -35,6 +39,7 @@ class PrepDocs:
             pdf=pdftotext.PDF(pdfin)
             for p in range(len(pdf)):
                 txt=txt+pdf[p]
+        # print(self.prep_txt(txt))
         return self.prep_txt(txt)
 
 
@@ -76,7 +81,8 @@ class Requirements:
         req_ids={}
         with open(self.file,"r") as fin:
             for index,line in enumerate(fin):
-                result=re.search(self.prefix+"\d+((.\d+){0,})",line)
+                # result=re.search(self.prefix+"\d+((.\d+){0,})",line) #elderberry
+                result = re.search("^"+ self.prefix + "((.\w+){0,})(.\d+)", line) #jackfruit
                 if result:
                     req_ids[result.group(0)]=index+1
         return req_ids
@@ -108,42 +114,67 @@ class Requirements:
         return reqs
 
     #split id desc to dict(id)= desc
-    def req_split(self,req_id,req_full):
+    def req_split(self,req_num,req_full):
         reqs={}
-        for i in range(len(req_id)-1):
-            req_desc=req_full[i].split(req_id[i],1)[1].strip()
+        for i in range(len(req_num)-1):
+
+            req_desc=req_full[i].split(req_num[i],1)[1].strip()
             req_desc = re.sub("^:","",req_desc) #remove leading colon
-            reqs[req_id[i]]=req_desc
+            reqs[req_num[i]]=req_desc
         return reqs
 
     def write_xlsx(self,reqs):
-        wb=xlwt.Workbook()
-        sheet1=wb.add_sheet(self.prefix)
-        r1_style=xlwt.easyxf('font:bold on')
-        c1_style=xlwt.easyxf('align:wrap on,vert centre, horiz left')
-        sheet1.write(0,0,'Req #',r1_style)
-        sheet1.write(0,1,'Req Description',r1_style)
-        sheet1.col(0).width=5*1000
-        sheet1.col(1).width=30*1000
+        rb=xlrd.open_workbook('Reqs.xls',formatting_info=True)
+        lrow=rb.sheet_by_index(0).nrows
+        wb=copy(rb)
+        sheet = wb.get_sheet(0)
+        c1_style = xlwt.easyxf('align:wrap on,vert centre, horiz left')
         for index,key in enumerate(reqs):
-            sheet1.write(index+1,0,key)
-            sheet1.write(index+1,1,reqs[key],c1_style)
+            sheet.write(lrow+index+1,0,key)
+            sheet.write(lrow+index+1,1,reqs[key],c1_style)
         wb.save('Reqs.xls')
 
-def main():
-    origin = "SRS.pdf"
-    txtfile = "Reqs.txt"
-    predoc=PrepDocs(origin,txtfile)
-    predoc.write_file
-    req_inst=Requirements(txtfile,"AMVTSRS")
-    req_num=list(req_inst.req_ids.keys())
-    req_line_index=list(req_inst.req_ids.values())
-    req_full=req_inst.req_full(req_line_index)
-    reqs=req_inst.req_split(req_num,req_full)
-    req_inst.write_xlsx(reqs)
-    # print(predoc.pdf2txt())
-    # print(req_num)
 
+    # def write_xlsx(self,reqs):
+    #     wb=xlwt.Workbook()
+    #     sheet1=wb.add_sheet(self.prefix)
+    #     r1_style=xlwt.easyxf('font:bold on')
+    #     c1_style=xlwt.easyxf('align:wrap on,vert centre, horiz left')
+    #     sheet1.write(0,0,'Req #',r1_style)
+    #     sheet1.write(0,1,'Req Description',r1_style)
+    #     sheet1.col(0).width=5*1000
+    #     sheet1.col(1).width=30*1000
+    #     for index,key in enumerate(reqs):
+    #         sheet1.write(index+1,0,key)
+    #         sheet1.write(index+1,1,reqs[key],c1_style)
+    #     wb.save('Reqs.xls')
+    #     print(len(sheet1._Worksheet__rows))
+
+
+def main():
+
+    docs = {"srs.pdf":"STTSRS",
+            "sad.pdf":"STTSAD"}
+
+    wb = xlwt.Workbook()
+    sheet1 = wb.add_sheet("REQs")
+    r1_style = xlwt.easyxf('font:bold on')
+    sheet1.write(0, 0, 'Req #', r1_style)
+    sheet1.write(0, 1, 'Req Description', r1_style)
+    sheet1.col(0).width = 5 * 1000
+    sheet1.col(1).width = 30 * 1000
+    wb.save('Reqs.xls')
+
+    for doc in docs.keys():
+        txtfile=f'{docs[doc]}.txt'
+        predoc = PrepDocs(doc, txtfile)
+        predoc.write_file
+        req_inst = Requirements(txtfile, docs[doc])
+        req_num = list(req_inst.req_ids.keys())
+        req_line_index = list(req_inst.req_ids.values())
+        req_full = req_inst.req_full(req_line_index)
+        reqs = req_inst.req_split(req_num, req_full)
+        req_inst.write_xlsx(reqs)
 
 
 if __name__=="__main__":
